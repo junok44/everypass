@@ -1,0 +1,421 @@
+@charset 'utf-8';
+
+@media screen and (max-width:1024px) {
+
+	/* 스크롤 */
+	.scroll-txt {
+		font-size: 1.1rem;
+	}
+
+	/* 헤더 */
+	.header .container {
+		width: 90%;
+	}
+
+	.header-logo-wrap {}
+
+	.gnb {
+		display: none;
+	}
+
+	.mobile-menu-wrap {
+		display: block;
+	}
+	.mobile-menu-wrap i {
+		font-size: 2.6rem;
+		color: #555;
+	}
+
+	/* 1페이지 */
+	.page-1 .container {
+		width: 85%;
+	}
+
+	.logo img {
+		width: 20rem;
+	}
+
+	.page-1-tit {
+		font-size: 2.5rem;
+	}
+
+	.page-1-txt {
+		font-size: 1.8rem;
+	}
+
+	.page-1-right img {
+		width: 35rem;
+		height: auto;
+	}
+	.page-1-btn {
+		touch-action: auto;
+	}
+
+	/* 2페이지 */
+	.page-2 .container {
+		width: 85%;
+	}
+
+	.pages-tit {
+		font-size: 3.5rem;
+		margin-bottom: 1rem;
+	}
+
+	.pages-sub-tit {
+		font-size: 2.6rem;
+		margin-bottom: 1rem;
+	}
+
+	.pages-txt {
+		font-size: 1.5rem;
+	}
+
+	/* 3페이지 */
+	.page-3 .container {
+		width: 85%;
+	}
+
+	/* 4페이지 */
+	.page-4 .container {
+		width: 85%;
+	}
+	.page-4-main-wrap {
+		position: relative;
+		
+	}
+	.page-4-main {
+		position: relative;
+		display: block;
+		height: auto;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.page-4-left-wrap {
+		transform: translateY(0);
+		margin-bottom: 2rem;
+	}
+	.page-4-right-wrap {
+		transform: translateY(0);
+	}
+
+	.page-4-left img {
+		width: 34rem;
+		height: auto;
+	}
+
+	/* 5페이지 */
+	.page-5 .container {
+		width: 85%;
+	}
+	.page-5-main {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.page-5-right img {
+		width: 31rem;
+		height: auto;
+	}
+	/* 다운로드영역/ 6페이지 */
+	.download-section {}
+	.download-section .container  {
+		width: 85%;
+	}
+	.download-right-img img {
+		width: 36rem;
+		height: auto;
+	}
+
+	/* 이용문의 */
+	.ask .container {
+		width: 85%;
+		height: 80%;
+	}
+
+	.ask-txt {
+		font-size: 2rem;
+		margin-bottom: 0.5rem;
+	}
+
+	.ask-sub-tit {
+		font-size: 2.8rem;
+		margin-bottom: 0.5rem;
+	}
+
+	.ask-tit {
+		font-size: 2.7rem;
+	}
+
+	.form {
+		width: 30rem;
+	}
+
+	#check_icon {
+		width: 76%;
+	}
+	/* 풋터 */
+	.company-info {
+		float: none;
+	}
+	.company-link {
+		float: none;
+		top: 0;
+		margin-top: 2rem;
+	}
+
+	/* 풋터 */
+	.footer {
+		height: 20%;
+	}
+	.footer .container {
+		width: 90%;
+	}
+	.footer-logo-wrap {
+		margin-bottom: 0rem;
+	}
+}
+
+@media screen and (max-width:768px) {
+	/* 네비게이션바 */
+	.pg-vertical .pg-pips {
+		right: 0;
+	}
+	/* 스크롤 */
+	.scroll-txt {
+		top: 89%;
+	}
+
+	/* 페이지1 */
+	.logo {
+		margin-bottom: 2rem;
+	}
+
+	.logo img {
+		position: relative;
+		transform: translateX(-50%);
+		left: 50%;
+		width: 11rem;
+	}
+
+	.page-1-tit {
+		display: block;
+		width: 100%;
+		font-size: 1.8rem;
+		margin-bottom: 1.5rem;
+		text-align: center;
+	}
+
+	.page-1-txt {
+		font-size: 1.3rem;
+		text-align: center;
+	}
+
+	.pages-sub-tit {
+		font-size: 2.3rem;
+	}
+
+	.pages-txt {
+		font-size: 1.5rem;
+	}
+
+	.page-1-left-wrap {
+		float: none;
+	}
+
+	.page-1-left {
+		position: relative;
+		padding-top: 21rem;
+	}
+
+	.page-1-btn {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		text-align: center;
+		font-size: 1.5rem;
+		padding: 0.8rem 1.5rem;
+	}
+
+	.fa-long-arrow-alt-right {
+		display: none;
+	}
+
+	.page-1-right-wrap {
+		position: absolute;
+		top: 11rem;
+		left: 50%;
+		transform: translateX(-50%);
+		float: none;
+	}
+
+	.page-1-right {}
+
+	.page-1-right img {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		width: 21.5rem;
+	}
+
+	.tablet_img.tablet_img_hidden {
+		opacity: 0;
+		transform: translate(0, 0);
+	}
+	
+
+	/* 페이지2 */
+	.page-2-main {
+		float: none;
+	}
+
+	.page-2-main span {
+	}
+
+	.pages-tit-right {
+		text-align: left;
+		color: #fff;
+	}
+
+	.pages-sub-tit-right {
+		text-align: left;
+		color: #fff;
+	}
+
+	.pages-txt-right {
+		text-align: left;
+		color: #fff;
+	}
+
+	/* 페이지4 */
+	.page-4-left-wrap {
+		float: none;
+	}
+	.page-4-right-wrap {
+		float: none;
+		display: block;
+	}
+
+	.page-4-left img {
+		width: 28rem;
+	}
+
+	/* 페이지5 */
+	.page-5-left-wrap {
+		margin-top: 20rem;
+	}
+
+	.page-5-right-wrap {
+		float: none;
+		position: absolute;
+		padding-bottom: 12rem;
+	}
+
+	.page-5-right img {
+		width: 29rem;
+	}
+
+	/* 이용문의 */
+	.ask .container {
+		width: 80%;
+	}
+	.ask-left-wrap {
+		float: none;
+		top: 112vw;
+		transform: translateY(0);
+	}
+
+	.ask-tit {
+		font-size: 2.2rem !important;
+	}
+
+	.ask-sub-tit {
+
+	}
+	.download-right-wrap {
+		position: relative;
+		top: -2rem;
+		transform: translateY(0);
+		float: none;
+	}
+	.download-right-wrap img {
+		width: 80vw;
+	}
+
+	.ask-tit {
+		display: block;
+		font-size: 1.6rem;
+		color: #555;
+		font-weight: 500;
+		margin-bottom: 1rem;
+	}
+
+	.download-btn {
+		padding: 2rem 4rem;
+		background-size: 13rem;
+		width: 100%;
+	}
+
+	.ask-right-wrap {
+		float: none;
+		top: 39%;
+	}
+	.form-tit {
+		font-size: 1.6rem;
+	}
+	.form {
+		width: 100%;
+		height: 20rem;
+	}
+	.form-control {
+		margin-bottom: 0.5rem;
+		z-index: 9999;
+	}
+	.form-control input {
+		padding: 0rem 2rem;
+		height: 3.8rem;
+		font-size: 1.3rem;
+	}
+	.form-control textarea {
+		padding: 1rem 0 0 2rem;
+		font-size: 1.3rem;
+	}
+	.form button {
+		padding: 0.8rem 5rem;
+		font-size: 1.2rem;
+	}
+	.form-control small {
+		font-size: 1.1rem;
+	}
+	#content {
+		height: 10rem;
+	}
+	#check_icon {
+		width: 23rem;
+	}
+
+	.footer {
+		height: 23%;
+	}
+	.footer .container {
+		height: 100%;
+		font-size: 1.1rem;
+	}
+	.footer-info-open {
+		display: block !important;
+		left: 11rem;
+	}
+	.footer-main-wrap {
+	}
+	.footer-bar {
+		height: 1rem;
+	}
+
+	.footer-logo-wrap {
+		padding-bottom: 0rem;
+		margin-bottom: 0;
+	}
+	.footer-logo {
+		width: 11rem;
+	}
+}

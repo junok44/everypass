@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+   <title>EVERYPASS</title>
+
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   <meta http-equiv="Cache-Control" content="no-cache">
+   <meta http-equiv="Pragma" content="no-cache">
+   <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+   <meta name="generator" content="에브리패스">
+   <meta name="author" content="에브리패스">
+   <meta name="description" content="에브리패스">
+   <meta name="keywords" content="">
+   <meta name="image" content="" />
+
+   <meta property="og:url" content="" />
+   <meta property="og:title" content="CISSOID" />
+   <meta property="og:type" content="article" />
+   <meta property="og:image" content="" />
+   <meta property="og:description" content="에브리패스 출입관리 어플리케이션" />
+
+   <link rel="shortcut icon" href="images/favicon.png">
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+   <link rel="stylesheet" href="css/pageable.min.css">
+   <link rel="stylesheet" href="css/index.css">
+   <link rel="stylesheet" href="css/mobile.css">
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script src="js/pageable.min.js"></script>
+   <script src="js/index.js"></script>
+</head>
+
+<body>
+   <div class="wall">
+      <!-- 모바일 메뉴 창 -->
+      <div class="mobile-menu-window-wrap mobile-menu-window-unactive">
+         <div class="mobile-menu-window-header">
+            <span class="mobile-menu-header"><img src="images/logo.png"></span>
+            <span class="mobile-menu-close">BACK</span>
+         </div>
+         <div class="mobile-gnb">
+            <ul class="depth2">
+               <li><a href="" class="menu-1 menus">처음으로</a></li>
+               <li><a href="https://play.google.com/store/apps/details?id=kr.csid.everypass" target="_blank"
+                     class="menu-2 menus">다운로드</a></li>
+               <li><a href="" class="menu-3 menus">문의하기</a></li>
+            </ul>
+         </div>
+      </div>
+      <!-- 개인정보 약관확인 -->
+      <div class="info_popup">
+         <div class="info_box">
+            <h2 class="info_popup_tit">개인정보 수집 및 이용 안내</h2>
+            <p class="info_popup_txt">
+               <i>1. 수집 정보</i><br>
+               ㈜시소이드는 이용자의 원활한 고객상담 및 불만처리를 위하여 아래와 같은 정보를 수집 합니다.<br>
+               * 수집 정보 : 이름, 휴대폰, 이메일 주소, 회원의 문의/답변 내용에 포함된 정보 <br><br>
+
+               <i>2. 수집 및 이용 목적</i><br>
+               수집된 정보는 고객문의 및 상담요청에 대하여 회신을 하거나, 상담을 위한 서비스 이용기록 조회를 목적으로 활용합니다.<br><br>
+
+               <i>3. 보관 및 이용 기간</i><br>
+               이용자의 정보는 문의 처리 이후 2년간 보관하며 파기합니다.
+            </p>
+            <button class="popup_close">확인</button>
+         </div>
+      </div>
+      <!-- 마우스스크롤 -->
+      <div class="scroll-downs">
+         <p class="scroll-txt">SCROLL</p>
+         <div class="mousey">
+            <div class="scroller"></div>
+         </div>
+      </div>
+      <div class="pg-wrapper">
+         <div class="wrap pg-container" id="container">
+            <!-- 1페이지 -->
+            <section class="page-1" data-anchor="page-1" id="page-1">
+               <header class="header" id="header">
+                  <div class="container clearfix">
+                     <div class="header-logo-wrap left">
+                        <div class="header-logo logo1"><img src="images/logo.png"></div>
+                     </div>
+                     <div class="gnb right">
+                        <ul class="depth1">
+                           <li><a href="" class="menu-1 menus">처음으로</a></li>
+                           <li><a href="https://play.google.com/store/apps/details?id=kr.csid.everypass" target="_blank"
+                                 class="menu-2 menus">다운로드</a></li>
+                           <li><a href="" class="menu-3 menus">문의하기</a></li>
+                        </ul>
+                     </div>
+                     <span class="mobile-menu-wrap">
+                        <i class="fas fa-bars"></i>
+                     </span>
+                  </div>
+               </header>
+               <div class="container">
+                  <div class="page-1-main clearfix">
+                     <div class="page-1-left-wrap left">
+                        <div class="page-1-left">
+                           <span class="logo"><img src="images/logo.png"></span>
+                           <span class="page-1-tit">
+                              휴대전화 번호 입력으로 <br>
+                              출입 체크 확인
+                           </span>
+                           <span class="page-1-txt">스마트한 출입관리 어플리케이션</span>
+                           <button class="page-1-btn">문의하기<i class="far fa-long-arrow-alt-right"></i></button>
+                        </div>
+                     </div>
+                     <div class="page-1-right-wrap right">
+                        <div class="page-1-right">
+                           <!-- <span class="touch-motion"></span> -->
+                           <img src="images/page-1-img.png" class="tablet_img tablet_img_hidden">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- 2페이지 -->
+            <section class="page-2" data-anchor="page-2" id="page-2">
+               <header class="header delete-borderbottom" id="header">
+                  <div class="container clearfix">
+                     <div class="header-logo-wrap left">
+                        <div class="header-logo logo2"><img src="images/logo.png"></div>
+                     </div>
+                     <div class="gnb right">
+                        <ul class="depth1 page2-menus">
+                           <li><a href="" class="menu-1 menus">처음으로</a></li>
+                           <li><a href="https://play.google.com/store/apps/details?id=kr.csid.everypass" target="_blank"
+                                 class="menu-2 menus">다운로드</a></li>
+                           <li><a href="" class="menu-3 menus">문의하기</a></li>
+                        </ul>
+                     </div>
+                     <span class="mobile-menu-wrap">
+                        <i class="fas fa-bars white-color"></i>
+                     </span>
+                  </div>
+               </header>
+               <div class="container">
+                  <div class="page-2-main-wrap">
+                     <div class="page-2-main">
+                        <span class="pages-tit pages-tit-right hidden" data-aos="zoom-out-up">ACADEMY</span>
+                        <span class="pages-sub-tit pages-sub-tit-right">학원</span>
+                        <span class="pages-txt pages-txt-right">
+                           하루에도 수십명씩 등원,하원 하는 <br>
+                           학생들이 있는 곳
+                        </span>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- 3페이지 -->
+            <section class="page-3" data-anchor="page-3" id="page-3">
+               <header class="header delete-borderbottom" id="header">
+                  <div class="container clearfix">
+                     <div class="header-logo-wrap left">
+                        <div class="header-logo logo3"><img src="images/logo.png"></div>
+                     </div>
+                     <div class="gnb right">
+                        <ul class="depth1 page3-menus ">
+                           <li><a href="" class="menu-1 menus">처음으로</a></li>
+                           <li><a href="https://play.google.com/store/apps/details?id=kr.csid.everypass" target="_blank"
+                                 class="menu-2 menus">다운로드</a></li>
+                           <li><a href="" class="menu-3 menus">문의하기</a></li>
+                        </ul>
+                     </div>
+                     <span class="mobile-menu-wrap">
+                        <i class="fas fa-bars white-color"></i>
+                     </span>
+                  </div>
+               </header>
+               <div class="container">
+                  <div class="page-3-main-wrap">
+                     <div class="page-3-main">
+                        <span class="pages-tit hidden">COMPANY</span>
+                        <span class="pages-sub-tit">회사</span>
+                        <span class="pages-txt">
+                           직원들의 출퇴근 시간 <br>
+                           기록이 필요한 곳
+                        </span>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- 4페이지 -->
+            <section class="page-4" data-anchor="page-4" id="page-4">
+               <header class="header delete-borderbottom" id="header">
+                  <div class="container clearfix">
+                     <div class="header-logo-wrap left">
+                        <div class="header-logo logo4"><img src="images/logo.png"></div>
+                     </div>
+                     <div class="gnb right">
+                        <ul class="depth1 page4-menus">
+                           <li><a href="" class="menu-1 menus">처음으로</a></li>
+                           <li><a href="https://play.google.com/store/apps/details?id=kr.csid.everypass" target="_blank"
+                                 class="menu-2 menus">다운로드</a></li>
+                           <li><a href="" class="menu-3 menus">문의하기</a></li>
+                        </ul>
+                     </div>
+                     <span class="mobile-menu-wrap">
+                        <i class="fas fa-bars white-color"></i>
+                     </span>
+                  </div>
+               </header>
+               <div class="container">
+                  <div class="page-4-main-wrap">
+                     <div class="page-4-main clearfix">
+                        <div class="page-4-left-wrap left">
+                           <div class="page-4-left">
+                              <img src="images/page-4-img.png">
+                           </div>
+                        </div>
+                        <div class="page-4-right-wrap right">
+                           <div class="page-4-right">
+                              <span class="pages-tit pages-tit-right hidden">GRAPH</span>
+                              <span class="pages-sub-tit pages-sub-tit-right">출입 현황, 통계를 한눈에</span>
+                              <span class="pages-txt pages-txt-right">
+                                 실시간 출입 현황, 통계 페이지가 제공되어 <br>
+                                 체계적으로 관리 하실 수 있습니다.
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- 5페이지 -->
+            <section class="page-5" data-anchor="page-5" id="page-5">
+               <header class="header delete-borderbottom" id="header">
+                  <div class="container clearfix">
+                     <div class="header-logo-wrap left">
+                        <div class="header-logo logo5"><img src="images/logo.png"></div>
+                     </div>
+                     <div class="gnb right">
+                        <ul class="depth1 page5-menus">
+                           <li><a href="" class="menu-1 menus">처음으로</a></li>
+                           <li><a href="https://play.google.com/store/apps/details?id=kr.csid.everypass" target="_blank"
+                                 class="menu-2 menus">다운로드</a></li>
+                           <li><a href="" class="menu-3 menus">문의하기</a></li>
+                        </ul>
+                     </div>
+                     <span class="mobile-menu-wrap">
+                        <i class="fas fa-bars white-color"></i>
+                     </span>
+                  </div>
+               </header>
+               <div class="container">
+                  <div class="page-5-main-wrap">
+                     <div class="page-5-main clearfix">
+                        <div class="page-5-left-wrap left">
+                           <div class="page-5-left">
+                              <span class="pages-tit hidden">MESSAGE</span>
+                              <span class="pages-sub-tit">출입 현황 실시간 알림통 기능</span>
+                              <span class="pages-txt">
+                                 필요하다면 사용자 출입 시 카카오톡으로 메세지를 <br>
+                                 전송할 수 있습니다. <i>⁕유료서비스</i>
+                              </span>
+                           </div>
+                        </div>
+                        <div class="page-5-right-wrap right">
+                           <div class="page-5-right">
+                              <img src="images/page-5-img.png">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- 다운로드 영역 / 6페이지 -->
+            <section class="download-section" data-anchor="page-6" id="page-6">
+               <header class="header " id="header">
+                  <div class="container clearfix">
+                     <div class="header-logo-wrap left">
+                        <div class="header-logo logo1"><img src="images/logo.png"></div>
+                     </div>
+                     <div class="gnb right">
+                        <ul class="depth1">
+                           <li><a href="" class="menu-1 menus">처음으로</a></li>
+                           <li><a href="https://play.google.com/store/apps/details?id=kr.csid.everypass" target="_blank"
+                                 class="menu-2 menus">다운로드</a></li>
+                           <li><a href="" class="menu-3 menus">문의하기</a></li>
+                        </ul>
+                     </div>
+                     <span class="mobile-menu-wrap">
+                        <i class="fas fa-bars"></i>
+                     </span>
+                  </div>
+               </header>
+               <div class="container clearfix">
+                  <div class="ask-left-wrap left">
+                     <div class="ask-left">
+                        <span class="ask-txt">부담없이 시작할 수 있는</span>
+                        <span class="ask-sub-tit">무료 출결관리 프로그램</span>
+                        <!-- 모바일 텍스트 변경은 자바스크립트 innerhtml로 -->
+                        <span class="ask-tit">에브리패스</span>
+                        <button class="download-btn"
+                           onclick="window.open('https://play.google.com/store/apps/details?id=kr.csid.everypass')"></button>
+                     </div>
+                  </div>
+                  <div class="download-right-wrap right">
+                     <div class="download-right-img">
+                        <img src="images/download-bg.png" alt="">
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- 문의영역 /7페이지 -->
+            <section class="ask" data-anchor="page-7" id="page-7">
+               <header class="header delete-borderbottom" id="header">
+                  <div class="container clearfix">
+                     <div class="header-logo-wrap left">
+                        <div class="header-logo logo1"><img src="images/logo.png"></div>
+                     </div>
+                     <div class="gnb right">
+                        <ul class="depth1">
+                           <li><a href="" class="menu-1 menus">처음으로</a></li>
+                           <li><a href="https://play.google.com/store/apps/details?id=kr.csid.everypass" target="_blank"
+                                 class="menu-2 menus">다운로드</a></li>
+                           <li><a href="" class="menu-3 menus">문의하기</a></li>
+                        </ul>
+                     </div>
+                     <span class="mobile-menu-wrap">
+                        <i class="fas fa-bars"></i>
+                     </span>
+                  </div>
+               </header>
+               <div class="container">
+                  <div class="ask-main-wrap clearfix">
+                     <div class="ask-right-wrap right">
+                        <div class="ask-right">
+                           <span class="form-tit">문의하기</span>
+                           <form id="form" class="form">
+                              <div class="form-control">
+                                 <input type="text" placeholder="이름" id="username">
+                                 <i class="fas fa-check-circle"></i>
+                                 <i class="fas fa-exclamation-circle"></i>
+                                 <small>Error message</small>
+                              </div>
+                              <div class="form-control">
+                                 <input type="email" placeholder="이메일" id="email">
+                                 <i class="fas fa-check-circle"></i>
+                                 <i class="fas fa-exclamation-circle"></i>
+                                 <small>Error message</small>
+                              </div>
+                              <div class="form-control">
+                                 <input type="text" placeholder="휴대폰 ( - 없이 입력해주세요.)" id="phone_num">
+                                 <i class="fas fa-check-circle"></i>
+                                 <i class="fas fa-exclamation-circle"></i>
+                                 <small>Error message</small>
+                              </div>
+                              <div class="form-control">
+                                 <textarea id="content" placeholder="문의내용을 20자이상 적어주세요."></textarea>
+                                 <i class="fas fa-check-circle"></i>
+                                 <i class="fas fa-exclamation-circle"></i>
+                                 <small>Error message</small>
+                              </div>
+                              <div class="form-control form-control-agree">
+                                 <input type="checkbox" id="check_icon">
+                                 <label for="check_icon" class="info_check">개인정보수집 동의</label>
+                                 <span class="info_more">자세히보기</span>
+                                 <small class="info_error">Error message</small>
+                              </div>
+                              <button>문의하기</button>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <footer class="footer">
+                  <div class="footer-wrap">
+                     <div class="container">
+                        <div class="footer-main-wrap">
+                           <div class="footer-logo-wrap clearfix">
+                              <img src="images/logo_cissoid_dark.png" class="footer-logo left">
+                           </div>
+                           <div class="footer-main  clearfix">
+                              <div class="company-info left">
+                                 <span class="company-name">주식회사 시소이드</span>
+                                 <span class="company-head">대표이사 이경훈  </span><span class="footer-bar"></span>
+                                 <span class="company-num">사업자등록번호 502-87-00526</span> <br>
+                                 <span class="company-sell">통신판매업 2016-대구동구-0438</span>  <span class="footer-bar"></span>
+                                 <span class="company-address">대구시 동구 동부로12길 38층, 1층</span>
+                              </div>
+                              <div class="company-link right">
+                                 <a href="https://www.csid.kr/company_info.aspx" target="_blank"><span
+                                       class="company-intro">회사소개</span></a>
+                                 <a href="https://www.csid.kr/doc_agreement.aspx" target="_blank"><span
+                                       class="company-service">이용약관</span></a>
+                                 <a href="https://www.csid.kr/doc_refund.aspx" target="_blank"><span
+                                       class="company-refund">환불규정</span></a>
+                                 <a href="https://www.csid.kr/doc_policy.aspx" target="_blank"><span
+                                       class="company-privacy">개인정보처리방침</span></a>
+                                 <a href="https://www.csid.kr/doc_spamdeny.aspx" target="_blank"><span
+                                       class="spam">불법스팸방지안내</span></a>
+                                 <a href="https://blog.naver.com/wecissoid" target="_blank"><span
+                                       class="blog">공식블로그</span></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </footer>
+            </section>
+
+         </div>
+      </div>
+   </div>
+</body>
+
+</html>
